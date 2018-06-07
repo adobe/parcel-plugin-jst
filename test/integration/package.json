@@ -1,0 +1,16 @@
+{
+  "name": "it-parcel-plugin-jst",
+  "version": "1.0.0",
+  "description": "Integration Tests for Parcel Plugin JST",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "parcel build src/*.jst --global module.exports.main --target node"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-jst": "file:../../"
+  }
+}

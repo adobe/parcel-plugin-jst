@@ -1,0 +1,15 @@
+{
+  "name": "parcel-plugin-jst",
+  "version": "0.1.0",
+  "description": "Compiles JST templates to JS functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dot": "^1.1.2",
+    "parcel-bundler": "^1.8.1"
+  }
+}
