@@ -18,7 +18,7 @@ class JSTAsset extends Asset {
     return [
       {
         type: 'js',
-        value: `module.exports=${this.contents};`
+        value: `module.exports=${this.contents};module.exports.main=function(a) { return { body: module.exports(a) } }`
       }
     ];
   }
