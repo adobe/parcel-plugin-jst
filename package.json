@@ -1,6 +1,7 @@
 {
   "name": "@adobe/parcel-plugin-jst",
   "version": "0.1.1",
+  "repository": "https://github.com/adobe/parcel-plugin-jst",
   "description": "Compiles JST templates to JS functions",
   "main": "index.js",
   "scripts": {
